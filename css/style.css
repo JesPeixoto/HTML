@@ -1,18 +1,59 @@
 
 /*Arquivo CSS geral com estilos dos elementos de todas as páginas */
+/* Valor do ID é exclusivo */
+/* Setores HTML = * é universal, ID = é usado dentro da TG ou atributo ID que é unico #, seletor de classe que é iniciado por . */
+/* adcionar estilo por atributo */
 
 
+		/* Cuidade nesse elemento o seletor * universal, afeta todo o documento */
 * {
 			  box-sizing: border-box;
+
+			}
+			
+			/* Tag raiz de todo o HTML */
+			html {
+				margin: 0%;
+				padding: 0%;
+				font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 			}
 
+			
 			body {
-			  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+				background-color: rgb(255, 255, 255);
+			  }
+
+			h1, h2, p, li {
+				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+				color: rgb(80, 75, 80);
+
+			}
+		
+			/* Links da pagina */
+			a {
+				color: rgb(255, 255, 255);
+				text-decoration: none;
+			}
+
+			#primeiro-link a {
+				color: rgb(179, 179, 179);
+			}
+			
+			ul {
+				background-color: rgb(68, 94, 141);
+			}
+
+			.navegacao {
+				background-color: rgb(25, 114, 114);
+			}
+
+			[type="text", type="email", textare] {
+				margin-bottom: 35%;
 			}
 
 			/* Style the header */
 			header {
-			  background-color: #020000;
+			  background-color: #bdbdbd;
 			  padding: 15px;
 			  text-align: center;
 			  font-size: 15px;
@@ -35,7 +76,7 @@
 			}
 
 			/* home */
-			
+
 			article {
 			  float: left;
 			  padding: 12px 20px;
