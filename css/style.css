@@ -15,7 +15,7 @@
 			html {
 				margin: 0%;
 				padding: 0%;
-				font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+				font-family: 'Courier New', Courier, monospace; 
 				font-size: 10px; /*equivalente a 10px */
 			}
 
@@ -23,35 +23,40 @@
 			/* elemento <body> no seu CSS para definir o fundo de toda a página. */
 
 			body {
-				color: black;
-				background-color: white
-				font-family: Arial, Helvetica, sans-serif;
+				color: rgb(255, 255, 255);
+				background-color: rgb(63, 98, 138);
+				font-family: 'Courier New', Courier, monospace;
+				letter-spacing: 1px;
 			  }
 
 			  header h1 {
-				color: black;
-			
+				color: rgb(255, 255, 255);
+				font-family: fantasy;
+				letter-spacing: 2px;
+				
 			  }
 		
 			/* Links da pagina */
 			a {
-
-				color: #ffffff;
+				color: black;
 				text-decoration: none;
+				font-size: medium;
+				text-align: center;
+				font-family: 'Courier New', Courier, monospace;
 			}
 
-			#primeiro-link a {
-				color: rgb(0, 0, 0);
+			a:hover {
+				color: #537499;
+				text-decoration:overline;
 			}
-			
 			
 			ul { 	/* Rede sociais */
 				display: grid;
 				justify-content: space-around;
 				list-style-type: none;
 				align-items: center;
-				font-size: 15px;
-				padding: 8px;
+				font-size: 10px;
+				padding: 5px;
 				}
 
 			ul li { 	/* Coluna com links */
@@ -59,49 +64,61 @@
 				justify-content: space-around;
 				list-style-type: none;
 				align-items: center;
-				font-size: 15px;
-				padding: 8px;
+				font-size: 10px;
+				padding: 5px;
 			}
 
+			h3 {
+				letter-spacing: 2px;
+				font-family:'Courier New', Courier, monospace;
+				font-size: medium;
+				color: rgb(0, 0, 0);
+				font-weight:800;
+
+			}
 		
 			header img {
 				width: 150px;
 				height: 150px;
 				border-radius: 50%;
-				border: 5x solid rgb(243, 250, 243);
+				border: 4px solid rgb(255, 255, 255);
 
 			}
 
 			footer img {
-				width: 40px;
-				height: 40px;
+				width: 30px;
+				height: 30px;
+				border: 2px solid #ffffff;
 			}
 
 			footer {
 				display: flex;
 				justify-content: center;
 				text-align: center;
-				
+				background-color:rgb(63, 98, 138);
+				height: 30px;
 			}
 
 			footer a {
 				margin: 20px;
 				text-align: center;
+		
 			}
 
 			footer p {
 				margin-top: 2px;
 				color: black;
+				
 			}
 
 			.container {
-				padding: 0px 50px;
+				padding: 0px 30px;
 
 			}
 
 
 			.navegacao {
-				background-color: rgb(25, 114, 114);
+				background-color: rgb(63, 98, 138);
 			}
 
 			[type="text", type="email", textare] {
@@ -117,19 +134,19 @@
 
 			/* Style the header */
 			header {
-			  background-color: #bdbdbd;
+			  background-color: rgb(63, 98, 138);
 			  padding: 15px;
 			  text-align: center;
 			  font-size: 15px;
-			  color: rgb(190, 181, 181);
+			  color: rgb(63, 98, 138);
 			}
 
 			/* Create two columns/boxes that floats next to each other */
 			nav {
 			  float: left;
 			  width: 15%;
-			   
-			  background: #bebdbd;
+
+			  background: rgb(183, 205, 230);
 			  padding: 15px;
 			}
 
@@ -147,7 +164,7 @@
 			  padding: 12px 20px;
 			  width: 70%;
 			  box-sizing: border-box;
-			  background-color: rgb(255, 255, 255);
+			  background-color: rgb(63, 98, 138);
 			}
 
 			/* Clear floats after the columns */
