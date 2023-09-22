@@ -1,0 +1,58 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    overflow: ;
+}
+
+h1, h2, p {
+    margin-bottom: 20px;
+}
+
+div {
+    padding: 20px 0;
+    margin: 0;
+}
+
+.width-100 {
+    width: 100%;
+    background-color: aquamarine;
+    padding: 20px;
+    height: 40px;
+}
+
+nav {
+    background-color: brown;
+    width: 20%;
+    float: left;
+    display: table;
+    height: 100%;
+}
+
+article {
+    background-color: bisque;
+    width: 80%;
+    float: left;
+    height: 100%;
+    box-sizing: border-box; /* considere o padding e 
+    border na largura e altura */
+}
+
+.fixed-width {
+    background-color: cadetblue;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+
+}
